@@ -9,9 +9,10 @@
 
 1. download a repository's comments: `node fetch-data [repo_owner] [repo_name]`
 2. confirm data integrity: `node check-data [repo_owner] [repo_name]`
-3. generate a report: `node report-frequent-authors [repo_owner] [repo_name] [minimum_comments]`
+3. generate a report: `node report-top-interactors [repo_owner] [repo_name] --since [timestamp] --cutoff [minimum_score]`
+
+Reports, by default, only consider issues/PRs/comments created within the last two years. This can be overridden with the `--since` option.
 
 ### Limitations
 
-- Data fetches only download issue comments from 2018 or later
 - Data fetches are not tuned to respect GitHub's API request limits, and may fail on very active repos
