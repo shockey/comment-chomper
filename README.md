@@ -18,3 +18,7 @@ CLI timestamps aren't very picky, for example `YYYY-MM-DD` format is fine.
 ### Limitations
 
 - Data fetches are not tuned to respect GitHub's API request limits, and may fail on very active repos
+
+### License
+
+This tool was developed for SmartBear Software. No public license is provided for this tool.
