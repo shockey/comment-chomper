@@ -13,6 +13,8 @@
 
 Reports, by default, only consider issues/PRs/comments created within the last two years. This can be overridden with the `--since` option.
 
+CLI timestamps aren't very picky, for example `YYYY-MM-DD` format is fine.
+
 ### Limitations
 
 - Data fetches are not tuned to respect GitHub's API request limits, and may fail on very active repos
