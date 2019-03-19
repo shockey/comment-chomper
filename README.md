@@ -18,6 +18,7 @@ CLI timestamps aren't very picky, for example `YYYY-MM-DD` format is fine.
 ### Limitations
 
 - Data fetches are not tuned to respect GitHub's API request limits, and may fail on very active repos
+- Commits are not included in datasets, which may result in underrepresentation of core contributors in repositories that don't follow a PR-only repository model.
 
 ### License
 
